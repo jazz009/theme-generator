@@ -1,0 +1,280 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/screen.css">
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+        
+        <!-- Bootstrap pick-a-color-->
+        <link rel="stylesheet" href="css/bootstrap/pick-a-color-1.2.3.min.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Générateur de CG pour Knowesia</h1>
+                <p>Cette page vous permet de choisir les éléments qui vont constituer votre charte graphique pour votre projet Knowesia</p>
+            </div>
+        </div>
+        
+        <div class="container">
+
+        <div class="well">
+
+        <h2>Choisissez la typographie:</h2>
+        
+        <div class="row">
+            <div class="col-md-4">
+            <label for="main_font">Police principale</label>
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" name="main_font" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choix de la police <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Arial</a></li>
+                            <li><a href="#">Verdana</a></li>
+                            <li><a href="#">Ubuntu</a></li>
+                            <li><a href="#">PT Sans</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Autre...</a></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                    <input type="text" class="form-control" aria-label="...">
+                </div><!-- /input-group -->
+            </div><!-- /.col-md-4-->
+
+            <div class="col-md-4">
+            <label for="h1_font">Police des titres de niveau 1</label>
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" name="h2_font" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choix de la police <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Arial</a></li>
+                            <li><a href="#">Verdana</a></li>
+                            <li><a href="#">Ubuntu</a></li>
+                            <li><a href="#">PT Sans</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Autre...</a></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                    <input type="text" class="form-control" aria-label="...">
+                </div><!-- /input-group -->
+            </div><!-- /.col-md-4-->
+
+            <div class="col-md-4">
+            <label for="h2_font">Police des titres de niveau 2</label>
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" name="h2_font" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choix de la police <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Arial</a></li>
+                            <li><a href="#">Verdana</a></li>
+                            <li><a href="#">Ubuntu</a></li>
+                            <li><a href="#">PT Sans</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Autre...</a></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                    <input type="text" class="form-control" aria-label="...">
+                </div><!-- /input-group -->
+            </div><!-- /.col-md-4-->
+        </div>  
+            
+        </div><!-- /well -->
+
+        <div class="well">
+            
+        <h2>Choisissez la couleur de votre texte:</h2>
+
+        <div class="row">    
+            
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="txt_color">Couleur du texte</label>
+                    <input type="text" value="#000000" name="txt_color" class="pick-a-color form-control">
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="h1_color">Couleur des titres de niveau 1</label>
+                    <input type="text" value="#0000eb" name="h1_color" class="pick-a-color form-control">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="h2_color">Couleur des titres de niveau 2</label>
+                    <input type="text" value="#5757ff" name="h2_color" class="pick-a-color form-control">
+                </div>
+            </div>
+        
+        </div>
+
+        </div><!-- /well -->
+
+        <div class="well">
+            
+        <h2>Choisissez la couleur des liens:</h2>
+
+        <div class="row">    
+            
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="a_color">Lien par defaut</label>
+                    <input type="text" value="#0000eb" name="a_color" class="pick-a-color form-control">
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="a_hover_color">Lien survolé</label>
+                    <input type="text" value="#cccccc" name="a_hover_color" class="pick-a-color form-control">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="a_visited_color">Lien déja visité</label>
+                    <input type="text" value="#d100d1" name="a_visited_color" class="pick-a-color form-control">
+                </div>
+            </div>
+        
+        </div>
+
+        </div><!-- /well -->
+
+         <div class="well">
+             <h2>Choix du theme graphique</h2>
+
+              <div class="row">    
+            
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="bg_color">Couleur du fond de la page</label>
+                    <input type="text" value="ffffff" name="bg_color" class="pick-a-color form-control">
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="bg_container_color">Couleur de fond du "container"</label>
+                    <input type="text" value="#cccccc" name="bg_container_color" class="pick-a-color form-control">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="test">
+                    <label for="bg_column_color">Couleur du fond des colonnes</label>
+                    <input type="text" value="#eeeeee" name="bg_column_color" class="pick-a-color form-control">
+                </div>
+            </div>
+
+            </div>
+         </div>
+
+         <div class="well">
+             <h2>Dimensionnement des pages</h2>
+
+                <div class="row">
+<!--                     <div class="col-md-12">
+                        <div class="test">
+                            <label for="bg_column_color">Taille de la page</label>
+                        <input type="text" value="#eeeeee" name="bg_column_color" class="pick-a-color form-control">
+                        </div>
+                    </div> -->
+
+
+
+
+                    <div class="col-md-4">
+                    <label for="bg_column_color">Taille de la page en pixel</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <input type="radio" aria-label="...">
+                            </span>
+                            <input type="text" class="form-control" name="page_width_1" aria-label="..." placeholder="1140">
+                            <span class="input-group-addon">px</span>
+                        </div><!-- /input-group -->
+                        
+                    </div>
+
+                    <div class="col-md-4">
+                    <label for="bg_column_color">Taille de la page en pourcentage</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <input type="radio" aria-label="..."  checked>
+                            </span>
+                            <input type="text" class="form-control" name="page_width_2" aria-label="..." placeholder="100">
+                            <span class="input-group-addon">%</span>
+                        </div><!-- /input-group -->
+                    </div>
+
+                    <div class="col-md-4">
+
+                    </div>
+
+                </div>
+
+         </div>
+
+        <div class="well">
+            <div class="row">
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-default" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Générer la feuille de style
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-default" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> Réinitialiser les styles
+                    </button>
+                </div>
+            </div>
+         </div>
+
+        </div> <!-- /container -->
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/tinycolor-0.9.15.min.js"></script>
+        <script src="js/vendor/pick-a-color-1.2.3.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+<script>
+$( document ).ready(function() {
+    $(".pick-a-color").pickAColor();
+});
+</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
